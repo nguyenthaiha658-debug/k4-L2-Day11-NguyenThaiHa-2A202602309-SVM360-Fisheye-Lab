@@ -1,1 +1,5 @@
 id,date,question,decision,rationale,status
+DEC-01,2026-09-28,Phân loại xe van cứu thương trong frame 032280,Gán class Car theo quy tắc R04,Van chở người quy ước là Car không gán Truck,approved
+DEC-02,2026-09-28,Xử lý người điều khiển xe máy Rider,Gộp cả người và xe thành 1 box Bike,Tuân thủ quy tắc Rider R03 tránh lỗi tách Pedestrian,approved
+DEC-03,2026-09-28,Xử lý xe 3 bánh chở hàng thùng kín ở rìa frame 014670,Escalate chuyển cấp cho team guideline,Cần làm rõ ranh giới giữa Truck và ThreeWheeler,escalated
+DEC-04,2026-09-28,Phân bổ ngưỡng kích thước H=40px cho vật thể xa,Không vẽ box cho vật thể H dưới 40px,Đảm bảo tuân thủ nghiêm quy tắc R01,approved

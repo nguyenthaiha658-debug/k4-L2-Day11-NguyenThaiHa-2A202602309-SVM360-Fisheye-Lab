@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,30,Lái thẳng tốc độ cao dễ bỏ sót vật nhỏ ở xa,Giám sát khoảng cách an toàn và phương tiện tiền phương
+front,hard,35,Ngược sáng chói đèn pha thời tiết xấu bóng cây,Khu vực chịu rủi ro va chạm trực diện cao nhất cần mẫu thử thách
+rear,normal,25,Đi lùi tốc độ thấp nhưng điểm mù góc rộng,Đảm bảo phát hiện vật cản khi lùi xe tiêu chuẩn
+rear,hard,30,Đèn xe sau rọi thẳng vật cản thấp trẻ em mép cản sau,Khu vực điểm mù nguy hiểm khi lùi chuồng hoặc quay đầu
+left,normal,20,Phương tiện song hành góc hẹp méo thấu kính,Đảm bảo góc nhìn bao quát thân xe bên trái
+left,hard,20,Vùng nối seam góc trước-trái và sau-trái biến dạng mép kính,Xử lý vật thể cắt ngang vùng giao thoa giữa các camera
+right,normal,20,Làn đường và vỉa hè người đi bộ sát lề,Bảo đảm an toàn khi chuyển làn sang phải
+right,hard,20,Điểm mù cột B/C và vùng seam góc trước-phải sau-phải,Kiểm tra khả năng nhận diện người đi bộ/xe máy vượt lề

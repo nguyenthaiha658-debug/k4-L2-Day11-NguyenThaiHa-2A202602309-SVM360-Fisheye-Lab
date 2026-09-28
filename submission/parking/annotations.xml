@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>63</id>
+      <size>1</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2026-09-28 08:38:35.409799+00:00</created>
+      <updated>2026-09-28 08:41:49.476967+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>0</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>63</id>
+          <start>0</start>
+          <stop>0</stop>
+          <url>http://localhost:8080/api/jobs/63/dataset/export/api/jobs/63</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>thaiha</username>
+        <email>nguyenthaiha658@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>parking_line</name>
+          <color>#ffcc00</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>free_space</name>
+          <color>#35c98b</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2026-09-28 08:42:23.950218+00:00</dumped>
+  </meta>
+  <image id="0" name="parking-lot-core.jpg" width="960" height="720">
+    <polyline label="parking_line" source="manual" occluded="0" points="25.49,719.73;29.20,685.30" z_order="0">
+    </polyline>
+    <polyline label="parking_line" source="manual" occluded="0" points="527.66,720.00;406.81,650.81" z_order="0">
+    </polyline>
+    <polyline label="parking_line" source="manual" occluded="0" points="960.00,684.65;696.60,622.60" z_order="0">
+    </polyline>
+    <polyline label="parking_line" source="manual" occluded="0" points="960.00,602.70;920.09,596.83" z_order="0">
+    </polyline>
+    <polygon label="free_space" source="manual" occluded="0" points="0.00,682.76;28.61,683.27;405.93,651.63;695.79,622.74;917.93,597.14;960.00,581.72;960.00,516.58;833.05,532.54;714.51,537.87;581.01,546.95;419.24,556.03;251.06,568.32;44.97,573.65;0.00,574.50" z_order="0">
+    </polygon>
+  </image>
+</annotations>
